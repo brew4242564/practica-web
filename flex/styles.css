@@ -2,10 +2,11 @@
 
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*{
-  box-sizing: inherit;
+
+* {
+    box-sizing: inherit;
 }
 
 body {
@@ -86,6 +87,7 @@ a:visited {
 .sign-button {
     padding: 8px 32px;
     border-radius: 8px;
+    border: 1px solid #295aaa;
     color: #f9faf8;
     background-color: #3882f6;
 }
@@ -100,7 +102,7 @@ a:visited {
     padding: 50px;
 }
 
-.info-title{
+.info-title {
     justify-self: center;
     font-size: 36px;
     color: #1f2937;
@@ -113,17 +115,18 @@ a:visited {
     display: flex;
     justify-content: space-between;
 }
-.subtext{
+
+.subtext {
     color: #6a737f;
 }
 
-.img-container img{
+.img-container img {
     border-radius: 32px;
     border: 5px solid #3882f6;
-    
+
 }
 
-.img-container{
+.img-container {
     width: 200px;
     text-align: center;
 }
@@ -134,32 +137,77 @@ a:visited {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 100px 512px;
+    padding: 5% 20%;
+
 }
 
 .quote-section .content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+
 }
 
-.quote p{
+.quote p {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
+
 }
 
-.atribution{
+.atribution {
     display: flex;
     justify-content: flex-end;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: 600;
     color: #1f2937;
     margin-top: 0;
 }
 
 /* call to action */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
 
+.call-to-action .content {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 2vh 10vh;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
 
+}
 
+.sign-button.border {
+    border: 2px solid #E5E7EB;
+    font-size: medium;
+    font-weight: 600;
+}
 
+.banner h3 {
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 5vh 0;
+}
+
+footer .content{
+    display: flex;
+    justify-content: center;
+
+}
